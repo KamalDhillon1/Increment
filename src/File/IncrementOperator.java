@@ -9,8 +9,10 @@ public class IncrementOperator {
 	        int x = 1;       
 	        x = x++ + ++x + x++ + ++x + ++x;       
 	        System.out.println("Value of x : " + x);
-             boolean abc = (x % 2 == 0 );
-             System.out.println("even " +abc);
+             boolean even= (x % 2 == 0 );
+             System.out.println("even " +even);
+             boolean odd = false;
+             System.out.println(even==odd);
  
  
 	
